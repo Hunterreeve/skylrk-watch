@@ -16,7 +16,7 @@ jobs:
       - name: Check SKYLRK
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python skylrk_watch.py
+        run: python "skylrk watch.py"
       - name: Save state
         run: |
           if [ -n "$(git status --porcelain state.json)" ]; then
