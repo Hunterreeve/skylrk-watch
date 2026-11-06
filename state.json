@@ -35,113 +35,41 @@
   "price": "200.00",
   "url": "https://skylrk.com/products/upsidedown?variant=44548144464051"
  },
- "44548168089779": {
-  "available": true,
-  "name": "SLIM \u2013 SHADE",
-  "price": "120.00",
-  "url": "https://skylrk.com/products/slim?variant=44548168089779"
- },
- "44548168122547": {
-  "available": true,
-  "name": "SLIM \u2013 TOASTY",
-  "price": "120.00",
-  "url": "https://skylrk.com/products/slim?variant=44548168122547"
- },
- "44548168188083": {
-  "available": true,
-  "name": "SLIM \u2013 PUTTY",
-  "price": "120.00",
-  "url": "https://skylrk.com/products/slim?variant=44548168188083"
- },
- "44687895789747": {
-  "available": false,
-  "name": "BEANIE \u2013 GUM",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/beanie?variant=44687895789747"
- },
  "44948605960371": {
-  "available": false,
+  "available": true,
   "name": "HOODIE \u2013 CAVE / 2XL",
   "price": "140.00",
   "url": "https://skylrk.com/products/hoodie?variant=44948605960371"
  },
  "44948605993139": {
-  "available": false,
+  "available": true,
   "name": "HOODIE \u2013 CAVE / XL",
   "price": "140.00",
   "url": "https://skylrk.com/products/hoodie?variant=44948605993139"
  },
  "44948606025907": {
-  "available": false,
+  "available": true,
   "name": "HOODIE \u2013 CAVE / L",
   "price": "140.00",
   "url": "https://skylrk.com/products/hoodie?variant=44948606025907"
  },
  "44948606058675": {
-  "available": false,
+  "available": true,
   "name": "HOODIE \u2013 CAVE / M",
   "price": "140.00",
   "url": "https://skylrk.com/products/hoodie?variant=44948606058675"
  },
  "44948606091443": {
-  "available": false,
+  "available": true,
   "name": "HOODIE \u2013 CAVE / S",
   "price": "140.00",
   "url": "https://skylrk.com/products/hoodie?variant=44948606091443"
  },
  "44948606124211": {
-  "available": false,
+  "available": true,
   "name": "HOODIE \u2013 CAVE / XS",
   "price": "140.00",
   "url": "https://skylrk.com/products/hoodie?variant=44948606124211"
- },
- "44988716777651": {
-  "available": true,
-  "name": "SLIM \u2013 SKY",
-  "price": "120.00",
-  "url": "https://skylrk.com/products/slim?variant=44988716777651"
- },
- "44988716810419": {
-  "available": true,
-  "name": "SLIM \u2013 DUSTY PINK",
-  "price": "120.00",
-  "url": "https://skylrk.com/products/slim?variant=44988716810419"
- },
- "45040915415219": {
-  "available": false,
-  "name": "BEANIE \u2013 WAVE CAMO",
-  "price": "80.00",
-  "url": "https://skylrk.com/products/beanie?variant=45040915415219"
- },
- "45041162879155": {
-  "available": false,
-  "name": "BEANIE \u2013 CHERRY CAMO",
-  "price": "80.00",
-  "url": "https://skylrk.com/products/beanie?variant=45041162879155"
- },
- "45096109310131": {
-  "available": false,
-  "name": "BEANIE \u2013 CAVE",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/beanie?variant=45096109310131"
- },
- "45129461039283": {
-  "available": true,
-  "name": "BEANIE \u2013 EARTH CAMO",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/beanie?variant=45129461039283"
- },
- "45129507078323": {
-  "available": false,
-  "name": "THIN LOOP SOCK 2-PACK \u2013 HAILEY GREY / JET",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/thin-loop-sock-2-pack?variant=45129507078323"
- },
- "45129507143859": {
-  "available": true,
-  "name": "THIN LOOP SOCK 2-PACK \u2013 CLOUDY PINK / COFFEE",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/thin-loop-sock-2-pack?variant=45129507143859"
  },
  "45262867955891": {
   "available": true,
@@ -227,72 +155,6 @@
   "price": "40.00",
   "url": "https://skylrk.com/products/beanie-lime?variant=45392663216307"
  },
- "45428595228851": {
-  "available": true,
-  "name": "SKULLCAP \u2013 Pink",
-  "price": "50.00",
-  "url": "https://skylrk.com/products/skullcap-powder?variant=45428595228851"
- },
- "45428600242355": {
-  "available": true,
-  "name": "SKULLCAP \u2013 Blue",
-  "price": "50.00",
-  "url": "https://skylrk.com/products/skullcap-spirit?variant=45428600242355"
- },
- "45557756756147": {
-  "available": false,
-  "name": "SKULLCAP \u2013 PUNCH",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/skullcap-punch?variant=45557756756147"
- },
- "45562376487091": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 Angel / 28",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-angel?variant=45562376487091"
- },
- "45562377339059": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 Angel / 30",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-angel?variant=45562377339059"
- },
- "45562377404595": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 Angel / 32",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-angel?variant=45562377404595"
- },
- "45562377437363": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 Angel / 34",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-angel?variant=45562377437363"
- },
- "45562379468979": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 COPPER / 28",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-copper?variant=45562379468979"
- },
- "45562379862195": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 COPPER / 30",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-copper?variant=45562379862195"
- },
- "45562379927731": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 COPPER / 32",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-copper?variant=45562379927731"
- },
- "45562379960499": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 COPPER / 34",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-copper?variant=45562379960499"
- },
  "45567775637683": {
   "available": false,
   "name": "BATWING REVERSE HOODIE \u2013 JET / S/M",
@@ -304,66 +166,6 @@
   "name": "BATWING REVERSE HOODIE \u2013 JET / L/XL",
   "price": "150.00",
   "url": "https://skylrk.com/products/batwing-reverse-hoodie-jet?variant=45567775670451"
- },
- "45569403584691": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 SMOKE / 28",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-smoke?variant=45569403584691"
- },
- "45569403650227": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 SMOKE / 30",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-smoke?variant=45569403650227"
- },
- "45569403715763": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 SMOKE / 32",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-smoke?variant=45569403715763"
- },
- "45569403748531": {
-  "available": true,
-  "name": "PAINTER PANT \u2013 SMOKE / 34",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-smoke?variant=45569403748531"
- },
- "45569403781299": {
-  "available": false,
-  "name": "PAINTER PANT \u2013 SMOKE / 36",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-smoke?variant=45569403781299"
- },
- "45569403814067": {
-  "available": false,
-  "name": "PAINTER PANT \u2013 SMOKE / 38",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-smoke?variant=45569403814067"
- },
- "45569410433203": {
-  "available": false,
-  "name": "PAINTER PANT \u2013 COPPER / 36",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-copper?variant=45569410433203"
- },
- "45569410465971": {
-  "available": false,
-  "name": "PAINTER PANT \u2013 COPPER / 38",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-copper?variant=45569410465971"
- },
- "45569412333747": {
-  "available": false,
-  "name": "PAINTER PANT \u2013 Angel / 36",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-angel?variant=45569412333747"
- },
- "45569412366515": {
-  "available": false,
-  "name": "PAINTER PANT \u2013 Angel / 38",
-  "price": "250.00",
-  "url": "https://skylrk.com/products/painter-pant-angel?variant=45569412366515"
  },
  "45623636000947": {
   "available": false,
@@ -400,240 +202,6 @@
   "name": "REVERSE ZIP HOODIE \u2013 APPLE / XXL",
   "price": "160.00",
   "url": "https://skylrk.com/products/reverse-zip-hoodie-1?variant=45623636164787"
- },
- "45623636426931": {
-  "available": true,
-  "name": "BUMP CASE \u2013 CLEAR / IPHONE 17 PRO",
-  "price": "25.00",
-  "url": "https://skylrk.com/products/bump-case-clear?variant=45623636426931"
- },
- "45623636459699": {
-  "available": true,
-  "name": "BUMP CASE \u2013 CLEAR / IPHONE 17 PRO MAX",
-  "price": "25.00",
-  "url": "https://skylrk.com/products/bump-case-clear?variant=45623636459699"
- },
- "45623636525235": {
-  "available": true,
-  "name": "BUMP CASE \u2013 SMUDGE / IPHONE 17 PRO",
-  "price": "25.00",
-  "url": "https://skylrk.com/products/bump-case-smudge?variant=45623636525235"
- },
- "45623636558003": {
-  "available": true,
-  "name": "BUMP CASE \u2013 SMUDGE / IPHONE 17 PRO MAX",
-  "price": "25.00",
-  "url": "https://skylrk.com/products/bump-case-smudge?variant=45623636558003"
- },
- "45623636852915": {
-  "available": true,
-  "name": "BUMP CASE \u2013 LAVA / IPHONE 17 PRO",
-  "price": "25.00",
-  "url": "https://skylrk.com/products/bump-case-lava?variant=45623636852915"
- },
- "45623636885683": {
-  "available": true,
-  "name": "BUMP CASE \u2013 LAVA / IPHONE 17 PRO MAX",
-  "price": "25.00",
-  "url": "https://skylrk.com/products/bump-case-lava?variant=45623636885683"
- },
- "45623636918451": {
-  "available": true,
-  "name": "BUMP CASE \u2013 SLIME / IPHONE 17 PRO",
-  "price": "25.00",
-  "url": "https://skylrk.com/products/bump-case-slime?variant=45623636918451"
- },
- "45623636951219": {
-  "available": true,
-  "name": "BUMP CASE \u2013 SLIME / IPHONE 17 PRO MAX",
-  "price": "25.00",
-  "url": "https://skylrk.com/products/bump-case-slime?variant=45623636951219"
- },
- "45623642521779": {
-  "available": false,
-  "name": "SKULLCAP - BASIL \u2013 BASIL",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/skullcap?variant=45623642521779"
- },
- "45623642947763": {
-  "available": true,
-  "name": "SKULLCAP \u2013 CHALK",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/skullcap-2?variant=45623642947763"
- },
- "45689932120243": {
-  "available": false,
-  "name": "BEANIE \u2013 CRAN",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/beanie?variant=45689932120243"
- },
- "45689983467699": {
-  "available": true,
-  "name": "SLOUCH SOCK 2-PACK \u2013 RAIN/BLOOH",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/slouch-sock-2-pack?variant=45689983467699"
- },
- "45700206690483": {
-  "available": true,
-  "name": "GLICKY - CHROME \u2013 CHROME",
-  "price": "190.00",
-  "url": "https://skylrk.com/products/glicky-chrome?variant=45700206690483"
- },
- "45700206723251": {
-  "available": true,
-  "name": "GLICKY - GLOSS \u2013 GLOSS",
-  "price": "190.00",
-  "url": "https://skylrk.com/products/glicky-gloss?variant=45700206723251"
- },
- "45700206756019": {
-  "available": true,
-  "name": "GLICKY - HEAT \u2013 HEAT",
-  "price": "190.00",
-  "url": "https://skylrk.com/products/glicky-heat?variant=45700206756019"
- },
- "45813230370995": {
-  "available": true,
-  "name": "BOXER BRIEF 3-PACK \u2013 APPLE, AQUA, TRUE BLUE / XS",
-  "price": "45.00",
-  "url": "https://skylrk.com/products/boxer-brief-3-pack-1?variant=45813230370995"
- },
- "45813232402611": {
-  "available": true,
-  "name": "BOXER BRIEF 3-PACK \u2013 APPLE, AQUA, TRUE BLUE / S",
-  "price": "45.00",
-  "url": "https://skylrk.com/products/boxer-brief-3-pack-1?variant=45813232402611"
- },
- "45813232435379": {
-  "available": true,
-  "name": "BOXER BRIEF 3-PACK \u2013 APPLE, AQUA, TRUE BLUE / M",
-  "price": "45.00",
-  "url": "https://skylrk.com/products/boxer-brief-3-pack-1?variant=45813232435379"
- },
- "45813232468147": {
-  "available": true,
-  "name": "BOXER BRIEF 3-PACK \u2013 APPLE, AQUA, TRUE BLUE / L",
-  "price": "45.00",
-  "url": "https://skylrk.com/products/boxer-brief-3-pack-1?variant=45813232468147"
- },
- "45813232500915": {
-  "available": true,
-  "name": "BOXER BRIEF 3-PACK \u2013 APPLE, AQUA, TRUE BLUE / XL",
-  "price": "45.00",
-  "url": "https://skylrk.com/products/boxer-brief-3-pack-1?variant=45813232500915"
- },
- "45813232533683": {
-  "available": false,
-  "name": "BOXER BRIEF 3-PACK \u2013 APPLE, AQUA, TRUE BLUE / 2XL",
-  "price": "45.00",
-  "url": "https://skylrk.com/products/boxer-brief-3-pack-1?variant=45813232533683"
- },
- "45827209134259": {
-  "available": true,
-  "name": "NO ZIP - DOTS \u2013 DOTS / XS",
-  "price": "240.00",
-  "url": "https://skylrk.com/products/reverse-no-zip-dots?variant=45827209134259"
- },
- "45827209167027": {
-  "available": true,
-  "name": "NO ZIP - DOTS \u2013 DOTS / S",
-  "price": "240.00",
-  "url": "https://skylrk.com/products/reverse-no-zip-dots?variant=45827209167027"
- },
- "45827209199795": {
-  "available": true,
-  "name": "NO ZIP - DOTS \u2013 DOTS / M",
-  "price": "240.00",
-  "url": "https://skylrk.com/products/reverse-no-zip-dots?variant=45827209199795"
- },
- "45827209232563": {
-  "available": false,
-  "name": "NO ZIP - DOTS \u2013 DOTS / L",
-  "price": "240.00",
-  "url": "https://skylrk.com/products/reverse-no-zip-dots?variant=45827209232563"
- },
- "45827209265331": {
-  "available": false,
-  "name": "NO ZIP - DOTS \u2013 DOTS / XL",
-  "price": "240.00",
-  "url": "https://skylrk.com/products/reverse-no-zip-dots?variant=45827209265331"
- },
- "45827209298099": {
-  "available": false,
-  "name": "NO ZIP - DOTS \u2013 DOTS / XXL",
-  "price": "240.00",
-  "url": "https://skylrk.com/products/reverse-no-zip-dots?variant=45827209298099"
- },
- "45827209429171": {
-  "available": true,
-  "name": "BOXER SHORT - YELLOW PLAID \u2013 YELLOW PLAID / XS",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-yellow-plaid?variant=45827209429171"
- },
- "45827209461939": {
-  "available": true,
-  "name": "BOXER SHORT - YELLOW PLAID \u2013 YELLOW PLAID / S",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-yellow-plaid?variant=45827209461939"
- },
- "45827209494707": {
-  "available": true,
-  "name": "BOXER SHORT - YELLOW PLAID \u2013 YELLOW PLAID / M",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-yellow-plaid?variant=45827209494707"
- },
- "45827209527475": {
-  "available": true,
-  "name": "BOXER SHORT - YELLOW PLAID \u2013 YELLOW PLAID / L",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-yellow-plaid?variant=45827209527475"
- },
- "45827209560243": {
-  "available": true,
-  "name": "BOXER SHORT - YELLOW PLAID \u2013 YELLOW PLAID / XL",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-yellow-plaid?variant=45827209560243"
- },
- "45827209593011": {
-  "available": true,
-  "name": "BOXER SHORT - YELLOW PLAID \u2013 YELLOW PLAID / XXL",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-yellow-plaid?variant=45827209593011"
- },
- "45827209691315": {
-  "available": false,
-  "name": "BOXER SHORT - BLUE PLAID \u2013 BLUE PLAID / XS",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-blue-plaid?variant=45827209691315"
- },
- "45827209724083": {
-  "available": false,
-  "name": "BOXER SHORT - BLUE PLAID \u2013 BLUE PLAID / S",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-blue-plaid?variant=45827209724083"
- },
- "45827209756851": {
-  "available": true,
-  "name": "BOXER SHORT - BLUE PLAID \u2013 BLUE PLAID / M",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-blue-plaid?variant=45827209756851"
- },
- "45827209789619": {
-  "available": true,
-  "name": "BOXER SHORT - BLUE PLAID \u2013 BLUE PLAID / L",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-blue-plaid?variant=45827209789619"
- },
- "45827209822387": {
-  "available": false,
-  "name": "BOXER SHORT - BLUE PLAID \u2013 BLUE PLAID / XL",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-blue-plaid?variant=45827209822387"
- },
- "45827209855155": {
-  "available": false,
-  "name": "BOXER SHORT - BLUE PLAID \u2013 BLUE PLAID / XXL",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/new-boxer-short-turn-back-waist-blue-plaid?variant=45827209855155"
  },
  "46073624854707": {
   "available": false,
