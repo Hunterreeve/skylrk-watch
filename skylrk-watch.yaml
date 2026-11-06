@@ -1,0 +1,40 @@
+# Put this file at .github/workflows/skylrk-watch.yml in your repo.
+name: SKYLRK stock watch
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes (GitHub may delay runs a few minutes)
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write             # needed to save state.json back to the repo
+
+concurrency:
+  group: skylrk-watch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check SKYLRK
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python skylrk_watch.py
+
+      - name: Save state
+        run: |
+          if [ -n "$(git status --porcelain state.json)" ]; then
+            git config user.name "skylrk-bot"
+            git config user.email "skylrk-bot@users.noreply.github.com"
+            git add state.json
+            git commit -m "Update stock state"
+            git push
+          fi
