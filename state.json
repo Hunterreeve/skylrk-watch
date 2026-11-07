@@ -143,12 +143,6 @@
   "price": "140.00",
   "url": "https://skylrk.com/products/matterdaddies?variant=45262871330995"
  },
- "45312438960307": {
-  "available": false,
-  "name": "BEANIE - ASH \u2013 ASH",
-  "price": "40.00",
-  "url": "https://skylrk.com/products/beanie-ash?variant=45312438960307"
- },
  "45392663216307": {
   "available": false,
   "name": "BEANIE \u2013 LIME",
@@ -240,7 +234,7 @@
   "url": "https://skylrk.com/products/hoodie-2?variant=46230773104819"
  },
  "46230773137587": {
-  "available": true,
+  "available": false,
   "name": "HOODIE - SUPER BLUE \u2013 SUPER BLUE / XL",
   "price": "140.00",
   "url": "https://skylrk.com/products/hoodie-2?variant=46230773137587"
