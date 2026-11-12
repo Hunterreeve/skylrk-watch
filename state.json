@@ -107,11 +107,53 @@
   "price": "140.00",
   "url": "https://skylrk.com/products/matterdaddies?variant=45262871330995"
  },
- "45392663216307": {
+ "45392561799347": {
+  "available": true,
+  "name": "REVERSE HOODIE \u2013 LIME / XS",
+  "price": "140.00",
+  "url": "https://skylrk.com/products/reverse-hoodie-lime?variant=45392561799347"
+ },
+ "45392562127027": {
   "available": false,
+  "name": "REVERSE HOODIE \u2013 LIME / S",
+  "price": "140.00",
+  "url": "https://skylrk.com/products/reverse-hoodie-lime?variant=45392562127027"
+ },
+ "45392562159795": {
+  "available": true,
+  "name": "REVERSE HOODIE \u2013 LIME / M",
+  "price": "140.00",
+  "url": "https://skylrk.com/products/reverse-hoodie-lime?variant=45392562159795"
+ },
+ "45392562192563": {
+  "available": true,
+  "name": "REVERSE HOODIE \u2013 LIME / L",
+  "price": "140.00",
+  "url": "https://skylrk.com/products/reverse-hoodie-lime?variant=45392562192563"
+ },
+ "45392562225331": {
+  "available": false,
+  "name": "REVERSE HOODIE \u2013 LIME / XL",
+  "price": "140.00",
+  "url": "https://skylrk.com/products/reverse-hoodie-lime?variant=45392562225331"
+ },
+ "45392562258099": {
+  "available": true,
+  "name": "REVERSE HOODIE \u2013 LIME / 2XL",
+  "price": "140.00",
+  "url": "https://skylrk.com/products/reverse-hoodie-lime?variant=45392562258099"
+ },
+ "45392663216307": {
+  "available": true,
   "name": "BEANIE \u2013 LIME",
   "price": "40.00",
   "url": "https://skylrk.com/products/beanie-lime?variant=45392663216307"
+ },
+ "45392665510067": {
+  "available": false,
+  "name": "BEANIE \u2013 IRIS",
+  "price": "40.00",
+  "url": "https://skylrk.com/products/beanie-iris?variant=45392665510067"
  },
  "45567775637683": {
   "available": false,
@@ -208,12 +250,6 @@
   "name": "BUMP CASE \u2013 SLIME / IPHONE 17 PRO MAX",
   "price": "25.00",
   "url": "https://skylrk.com/products/bump-case-slime?variant=45623636951219"
- },
- "45671037829299": {
-  "available": false,
-  "name": "DOMO - POWDER - TEST \u2013 POWDER",
-  "price": "99.00",
-  "url": "https://skylrk.com/products/domo-1?variant=45671037829299"
  },
  "45700206723251": {
   "available": true,
