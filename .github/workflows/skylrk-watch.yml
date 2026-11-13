@@ -17,12 +17,23 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python "skylrk watch.py"
+      - name: Check JUNO RINSE
+        if: always()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          STORE: https://junorinse.com
+          STORE_NAME: JUNO RINSE
+          STATE_FILE: state-junorinse.json
+        run: python "skylrk watch.py"
       - name: Save state
+        if: always()
         run: |
-          if [ -n "$(git status --porcelain state.json)" ]; then
+          for f in state.json state-junorinse.json; do
+            if [ -f "$f" ]; then git add "$f"; fi
+          done
+          if ! git diff --cached --quiet; then
             git config user.name "skylrk-bot"
             git config user.email "skylrk-bot@users.noreply.github.com"
-            git add state.json
             git commit -m "Update stock state"
             git push
           fi
