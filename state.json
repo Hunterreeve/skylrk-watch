@@ -143,42 +143,6 @@
   "price": "140.00",
   "url": "https://skylrk.com/products/reverse-hoodie?variant=45140669202611"
  },
- "45140669235379": {
-  "available": true,
-  "name": "REVERSE HOODIE \u2013 ALMOND / XS",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/reverse-hoodie?variant=45140669235379"
- },
- "45140669268147": {
-  "available": false,
-  "name": "REVERSE HOODIE \u2013 ALMOND / S",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/reverse-hoodie?variant=45140669268147"
- },
- "45140669300915": {
-  "available": false,
-  "name": "REVERSE HOODIE \u2013 ALMOND / M",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/reverse-hoodie?variant=45140669300915"
- },
- "45140669333683": {
-  "available": false,
-  "name": "REVERSE HOODIE \u2013 ALMOND / L",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/reverse-hoodie?variant=45140669333683"
- },
- "45140669366451": {
-  "available": false,
-  "name": "REVERSE HOODIE \u2013 ALMOND / XL",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/reverse-hoodie?variant=45140669366451"
- },
- "45140669399219": {
-  "available": false,
-  "name": "REVERSE HOODIE \u2013 ALMOND / 2XL",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/reverse-hoodie?variant=45140669399219"
- },
  "45174367453363": {
   "available": false,
   "name": "REVERSE HOODIE \u2013 CAVE / XS",
@@ -214,78 +178,6 @@
   "name": "REVERSE HOODIE \u2013 CAVE / 2XL",
   "price": "140.00",
   "url": "https://skylrk.com/products/reverse-hoodie?variant=45174367617203"
- },
- "45262867955891": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 14",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262867955891"
- },
- "45262871003315": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 15",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871003315"
- },
- "45262871036083": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 13 / W 14",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871036083"
- },
- "45262871068851": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 12 / W 13",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871068851"
- },
- "45262871101619": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 11 / W 12",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871101619"
- },
- "45262871134387": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 10 / W 11",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871134387"
- },
- "45262871167155": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 9 / W 10",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871167155"
- },
- "45262871199923": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 8 / W 9",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871199923"
- },
- "45262871232691": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 7 / W 8",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871232691"
- },
- "45262871265459": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 6 / W 7",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871265459"
- },
- "45262871298227": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 5 / W 6",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871298227"
- },
- "45262871330995": {
-  "available": false,
-  "name": "MATTERDADDIES \u2013 ASH / M 4 / W 5",
-  "price": "140.00",
-  "url": "https://skylrk.com/products/matterdaddies?variant=45262871330995"
  },
  "45392565534899": {
   "available": true,
@@ -330,7 +222,7 @@
   "url": "https://skylrk.com/products/reverse-sweats-jogger-iris?variant=45392659316915"
  },
  "45392659349683": {
-  "available": true,
+  "available": false,
   "name": "REVERSE SWEATS JOGGER \u2013 IRIS / S",
   "price": "160.00",
   "url": "https://skylrk.com/products/reverse-sweats-jogger-iris?variant=45392659349683"
@@ -498,7 +390,7 @@
   "url": "https://skylrk.com/products/reverse-no-zip-dots?variant=45827209232563"
  },
  "45827209265331": {
-  "available": true,
+  "available": false,
   "name": "NO ZIP - DOTS \u2013 DOTS / XL",
   "price": "240.00",
   "url": "https://skylrk.com/products/reverse-no-zip-dots?variant=45827209265331"
