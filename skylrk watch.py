@@ -56,8 +56,15 @@ class StoreLocked(Exception):
 
 def http_get_json(url):
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        # A password-protected Shopify store redirects everything to /password.
+    try:
+        resp = urllib.request.urlopen(req, timeout=30)
+    except urllib.error.HTTPError as e:
+        # A password-protected Shopify store answers 401 Unauthorized.
+        if e.code == 401:
+            raise StoreLocked() from None
+        raise
+    with resp:
+        # Some locked stores redirect to /password with a normal 200 instead.
         final_path = urllib.parse.urlparse(resp.geturl()).path.rstrip("/")
         if final_path.endswith("/password"):
             raise StoreLocked()
