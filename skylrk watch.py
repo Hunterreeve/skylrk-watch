@@ -54,15 +54,37 @@ class StoreLocked(Exception):
     """The store is behind Shopify's password page."""
 
 
+class StoreUnreachable(Exception):
+    """The store refused or didn't answer, even after retries."""
+
+
+RETRY_WAITS = (5, 15)  # seconds to wait before the 2nd and 3rd attempts
+FAILS_ALERT_AT = 6     # consecutive skipped checks (~30 min) before alerting
+
+
+def open_with_retries(req):
+    """Open a request, retrying blips like 403/429/5xx and timeouts."""
+    for attempt in range(len(RETRY_WAITS) + 1):
+        try:
+            return urllib.request.urlopen(req, timeout=20)
+        except urllib.error.HTTPError as e:
+            # A password-protected Shopify store answers 401 Unauthorized.
+            if e.code == 401:
+                raise StoreLocked() from None
+            if e.code not in (403, 429) and e.code < 500:
+                raise
+            reason = f"HTTP {e.code}"
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            reason = str(getattr(e, "reason", e))
+        if attempt < len(RETRY_WAITS):
+            print(f"{STORE_NAME}: {reason}, retrying in {RETRY_WAITS[attempt]}s")
+            time.sleep(RETRY_WAITS[attempt])
+    raise StoreUnreachable(reason)
+
+
 def http_get_json(url):
     req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        resp = urllib.request.urlopen(req, timeout=30)
-    except urllib.error.HTTPError as e:
-        # A password-protected Shopify store answers 401 Unauthorized.
-        if e.code == 401:
-            raise StoreLocked() from None
-        raise
+    resp = open_with_retries(req)
     with resp:
         # Some locked stores redirect to /password with a normal 200 instead.
         final_path = urllib.parse.urlparse(resp.geturl()).path.rstrip("/")
@@ -211,11 +233,39 @@ def main():
         while True:
             try:
                 check_once()
-            except (urllib.error.URLError, TimeoutError, ValueError) as e:
+            except (urllib.error.URLError, TimeoutError, ValueError, StoreUnreachable) as e:
                 print("Check failed, will retry:", e)
             time.sleep(INTERVAL_SECONDS)
     else:
+        check_with_skip()
+
+
+def check_with_skip():
+    """One check. If the store keeps refusing, skip quietly instead of failing,
+    and only alert once it has been unreachable for about 30 minutes."""
+    fails_file = STATE_FILE + ".fails"
+    try:
         check_once()
+    except StoreUnreachable as e:
+        try:
+            with open(fails_file, encoding="utf-8") as f:
+                fails = int(f.read().strip() or 0) + 1
+        except (FileNotFoundError, ValueError):
+            fails = 1
+        with open(fails_file, "w", encoding="utf-8") as f:
+            f.write(str(fails))
+        print(f"{STORE_NAME} unreachable ({e}); skipped this check ({fails} in a row)")
+        if fails == FAILS_ALERT_AT:
+            try:
+                notify(f"{STORE_NAME} watcher can't reach the store",
+                       f"The last {fails} checks were refused ({e}). "
+                       "It keeps trying and will alert as normal once it gets through.",
+                       STORE)
+            except Exception as ne:  # never fail the run over the warning itself
+                print("Couldn't send warning:", ne)
+        return
+    if os.path.exists(fails_file):
+        os.remove(fails_file)
 
 
 if __name__ == "__main__":
