@@ -8,17 +8,21 @@ permissions:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Check SKYLRK
+        timeout-minutes: 2
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python "skylrk watch.py"
       - name: Check JUNO RINSE
         if: always()
+        timeout-minutes: 2
+        continue-on-error: true
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           STORE: https://junorinse.com
