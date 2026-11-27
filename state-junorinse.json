@@ -12,7 +12,7 @@
   "url": "https://junorinse.com/products/juno-v-white?variant=52088645222620"
  },
  "52088645255388": {
-  "available": true,
+  "available": false,
   "name": "Juno V - White \u2013 m",
   "price": "40.00",
   "url": "https://junorinse.com/products/juno-v-white?variant=52088645255388"
@@ -24,13 +24,13 @@
   "url": "https://junorinse.com/products/juno-v-white?variant=52088645288156"
  },
  "52088645320924": {
-  "available": true,
+  "available": false,
   "name": "Juno V - White \u2013 xl",
   "price": "40.00",
   "url": "https://junorinse.com/products/juno-v-white?variant=52088645320924"
  },
  "52091890598108": {
-  "available": true,
+  "available": false,
   "name": "Juno V - Black \u2013 xs",
   "price": "40.00",
   "url": "https://junorinse.com/products/juno-v-black?variant=52091890598108"
@@ -60,7 +60,7 @@
   "url": "https://junorinse.com/products/juno-v-black?variant=52091890729180"
  },
  "52091892498652": {
-  "available": true,
+  "available": false,
   "name": "Juno V - Dusty Rose \u2013 xs",
   "price": "40.00",
   "url": "https://junorinse.com/products/juno-v-black-copy?variant=52091892498652"
@@ -90,7 +90,7 @@
   "url": "https://junorinse.com/products/juno-v-black-copy?variant=52091892629724"
  },
  "52091892662492": {
-  "available": true,
+  "available": false,
   "name": "Juno V - Dusty Blue \u2013 xs",
   "price": "40.00",
   "url": "https://junorinse.com/products/juno-v-blue?variant=52091892662492"
@@ -102,7 +102,7 @@
   "url": "https://junorinse.com/products/juno-v-blue?variant=52091892695260"
  },
  "52091892728028": {
-  "available": true,
+  "available": false,
   "name": "Juno V - Dusty Blue \u2013 m",
   "price": "40.00",
   "url": "https://junorinse.com/products/juno-v-blue?variant=52091892728028"
@@ -150,7 +150,7 @@
   "url": "https://junorinse.com/products/juno-v-mineral-gray?variant=52091893252316"
  },
  "68445811081436": {
-  "available": true,
+  "available": false,
   "name": "Juno washed bootcut jean \u2013 28",
   "price": "218.00",
   "url": "https://junorinse.com/products/juno-washed-bootcut-jean?variant=68445811081436"
